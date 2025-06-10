@@ -60,6 +60,27 @@ FW_VERSIONS = {
       b'PJ6T-14H102-ABL\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
+    CAR.FORD_F_150_MK14: {
+    (Ecu.fwdCamera, 0x706, None): [
+      b'ML3T-14H102-ACA\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'ML3A-14C204-NSE\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.abs, 0x760, None): [
+      b'PL34-2D053-CA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.eps, 0x730, None): [
+      b'ML3V-14D003-BC\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.debug, 0x7d0, None): [
+      b'MU5T-14G676-DT\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.shiftByWire, 0x732, None): [
+      b'ML3P-3G596-AF\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+  },
+
   CAR.FORD_EXPLORER_MK6: {
     (Ecu.eps, 0x730, None): [
       b'L1MC-14D003-AJ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
